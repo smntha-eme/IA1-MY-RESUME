@@ -9,19 +9,19 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 3;
-            background-color: #f0c4ed;
+            background-color: #f0b6f9;
         }
         .container {
             max-width: 900px;
             margin: 40px auto;
-            background-color: white;
+            background-color: rgb(253, 248, 253);
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
         .header img {
             border-radius: 50%;
@@ -36,35 +36,41 @@
         }
         .header p {
             font-size: 18px;
-            color: #2a2929;
+            color: #000000;
         }
         .section-title {
             color: #151515;
-            font-size: 20px;
-            border-bottom: 2px solid #e1e1e1;
-            padding-bottom: 8px;
+            font-size: 18px;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 16px;
             margin-bottom: 15px;
         }
         .info-section {
             margin-bottom: 30px;
         }
         .info-section p {
-            font-size: 20px;
+            font-size: 15px;
             margin: 5px 0;
-            color: #343434;
+            color: #0a0a0a;
         }
         .contact-info p {
             margin: 5px 0;
-            font-size: 20px;
+            font-size: 15px;
             color: #0b0b0b;
         }
         .contact-info span {
-            font-weight: bold;
+            font-weight: lighter;
         }
+        .skills-section ul li {
+            font-size: 16px;
+            margin-bottom: 5px;
+            color: #0a0a0a;
+        } /* Closing curly bracket added here */
+       
     </style>
 </head>
 <body>
-    
+  
 <div class="container">
     <!-- Profile Picture and Name -->
     <div class="header">
@@ -72,12 +78,57 @@
         <h1>Samantha Mae A. Musa</h1>
         <p>BS Information System 2B</p>
     </div>
-    
-    <div class="info-section contact-info"></div>
+
+    <!-- Contact Information -->
+    <div class="info-section contact-info">
         <h2 class="section-title">Contact Information</h2>
-        <p><span>Phone:</span> 09279319912</p>
-        <p><span>Email:</span> samanthamaemusa989@gmail.com</p>
-        <p><span>Address:</span> 11 Street, P-1, Upper Gapo, Camalig, 4502, Albay, Philippines</p>
+        <p><span><strong>Phone:</strong></span> 09279319912</p>
+        <p><span><strong>Email:</strong></span> samanthamaemusa989@gmail.com</p>
+        <p><span><strong>Address:</strong></span> 11 Street, P-1, Upper Gapo, Camalig, 4502, Albay, Philippines</p>
     </div>
 
+    <!-- Educational Background -->
+    <div class="info-section">
+        <h2 class="section-title">Educational Background</h2>
+        <p><strong>Elementary - Camalig North Central School (2011-2017)</strong></p>
+        <p>• Academic Achiever (2015-2016)</p>
+        <p>• Girl Scout of the Year (2015-2017)</p>
+        <p>• Badminton Doubles Girls - 2nd Place (2016-2017)</p>
+
+        <p><strong>High School - Malabog National High School (2017-2023)</strong></p>
+        <p>• With Honors (2017-2021)</p>
+
+        <p><strong>Senior High - Malabog National High School (2023-2024)</strong></p>
+        <p>• With Honors (2022-2023)</p>
+        <p>• Outstanding Performance in Science and Athletics (2022-2023)</p>
+
+        <p><strong>College - Bicol University Polangui (2024-2025)</strong></p>
+        <p>• 1st Year BSIS 1B (2023-2024)</p>
+        <p>• 2nd Year BSIS 2B (2024-2025)</p>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="info-section">
+        <h2 class="section-title">Work Experience</h2>
+        <p> • CBCCI Youth Council - PIO (2022-Present)</p>
+        <p> • ABCCOP Youth Albay - Asst. Secretary (Present)</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="info-section skills-section">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Graphic Design (Adobe Photoshop, Illustrator)</li>
+            <li>Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+            <li>Basic Networking Knowledge (Cisco Packet Tracer)</li>
+            <li>Project Management</li>
+            <li>Team Collaboration and Leadership</li>
+            <li>Communication and Presentation Skills</li>
+        </ul>
+    </div>
+    
+</div>
+
 </body>
+</html>
